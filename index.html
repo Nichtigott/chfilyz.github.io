@@ -251,7 +251,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
-    <link itemprop="mainEntityOfPage" href="http://chfilyz.github.io/2020/08/11/hello-world/">
+    <link itemprop="mainEntityOfPage" href="http://chfilyz.github.io/2020/08/18/powershell/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -268,7 +268,7 @@
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
-            <a href="/2020/08/11/hello-world/" class="post-title-link" itemprop="url">西西弗斯的巨石</a>
+            <a href="/2020/08/18/powershell/" class="post-title-link" itemprop="url">powershell的用法</a>
         </h2>
 
         <div class="post-meta">
@@ -279,7 +279,7 @@
               <span class="post-meta-item-text">Posted on</span>
               
 
-              <time title="Created: 2020-08-11 17:58:37 / Modified: 20:03:06" itemprop="dateCreated datePublished" datetime="2020-08-11T17:58:37+08:00">2020-08-11</time>
+              <time title="Created: 2020-08-18 08:29:42 / Modified: 09:49:14" itemprop="dateCreated datePublished" datetime="2020-08-18T08:29:42+08:00">2020-08-18</time>
             </span>
 
           
@@ -291,19 +291,26 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+          <h1 id="window-10-快捷键-ctrl-alt-打开很慢处理方法"><a href="#window-10-快捷键-ctrl-alt-打开很慢处理方法" class="headerlink" title="window 10 快捷键 ctrl alt 打开很慢处理方法"></a>window 10 快捷键 ctrl alt 打开很慢处理方法</h1><p><strong><em>1.</em></strong>首先打开 <strong><em><u>设置</u></em></strong> </p>
+<p><strong><em>2.</em></strong>然后点击 <strong><em><u>时间和语言</u></em></strong> </p>
+<p><strong><em>3.</em></strong>然后在左侧点击 <strong><em><u>区域和时间</u></em></strong> </p>
+<p><strong><em>4.</em></strong>有一个  <strong><em><u>中文（中华人民共和国）</u></em></strong>  这个选项，你点击后下面有三个选项</p>
+<p><strong><em>5.</em></strong>你点击  <strong><em><u>选项</u></em></strong>  进入设置，里面有个  <strong><em><u>微软拼音</u></em></strong> ，关掉里面的 <strong><em><u>云计算</u></em></strong> </p>
+<p><strong><em>6.</em></strong>键盘快捷键就没有延迟了</p>
+<h6 id="来自于百度贴吧"><a href="#来自于百度贴吧" class="headerlink" title="来自于百度贴吧"></a><strong><em><u>来自于百度贴吧</u></em></strong></h6><h1 id="使用powershell打开应用的快捷方法"><a href="#使用powershell打开应用的快捷方法" class="headerlink" title="使用powershell打开应用的快捷方法"></a>使用powershell打开应用的快捷方法</h1><p>1.在桌面上 <strong><em><u>新建一个文件夹</u></em></strong>      </p>
+<p>2.我的文件夹名字为link</p>
+<p>3.给文件夹<a target="_blank" rel="noopener" href="https://blog.csdn.net/weixin_37204973/article/details/82504570">添加环境变量</a>  </p>
+<ol start="4">
+<li><strong><em>用户</em></strong>  和  <strong><em>系统</em></strong>  两个都要都添加上</li>
+</ol>
+<p>在link的目录下创建一个bat文件</p>
+<figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> 你的目录</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>打开powershell，直接在powershell下输入.bat <strong><em><u>完整</u></em></strong> 文件名</p>
+<p>复制快捷方式进 <strong><em><u>link文件夹</u></em></strong> </p>
+<figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">start</span> 你的程序名即可打开</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+<p>之后就不用调用.bat文件了，直接使用即可</p>
 
       
     </div>
