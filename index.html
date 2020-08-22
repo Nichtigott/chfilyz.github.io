@@ -204,7 +204,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">1</span>
+          <span class="site-state-item-count">2</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
@@ -247,6 +247,79 @@
       
 
       
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
+    <link itemprop="mainEntityOfPage" href="http://chfilyz.github.io/2020/08/22/win%20%E7%9A%84%E6%A0%87%E9%A2%98%E6%A0%8F%E9%A2%9C%E8%89%B2%E8%AE%BE%E7%BD%AE%E4%B8%8D%E5%8F%98%E8%89%B2/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="木木木">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="木木木的博客">
+    </span>
+
+    
+    
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/08/22/win%20%E7%9A%84%E6%A0%87%E9%A2%98%E6%A0%8F%E9%A2%9C%E8%89%B2%E8%AE%BE%E7%BD%AE%E4%B8%8D%E5%8F%98%E8%89%B2/" class="post-title-link" itemprop="url">Untitled</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2020-08-22 10:38:32" itemprop="dateCreated datePublished" datetime="2020-08-22T10:38:32+08:00">2020-08-22</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <h1 id="win-的标题栏颜色设置不变色"><a href="#win-的标题栏颜色设置不变色" class="headerlink" title="win 的标题栏颜色设置不变色"></a>win 的标题栏颜色设置不变色</h1><ul>
+<li>怎样给Win10非活动窗口标题栏更换颜色</li>
+</ul>
+<ul>
+<li>具体方法：</li>
+</ul>
+<p>1、 首先打开设置—个性化—颜色，打开“显示‘开始’菜单、任务栏、操作中心和标题栏的颜色”选项。 </p>
+<p>2、 关闭“从我的背景自动选取一种主题色”，然后选择一种较浅的颜色。</p>
+<p>之所以要这样做，是为了从注册表中读取到当前的颜色值，我们要实现的是让非活动窗口标题栏为较浅的颜色，让活动窗口标题栏为较深颜色。</p>
+<p>3、 现在按Win+R打开运行，输入regedit回车打开注册表编辑器；</p>
+<p>4、 导航至以下位置：</p>
+<p>​    HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\DWM</p>
+<p>5、在右侧新建一个名为AccentColorInactive的32位DWORD值；</p>
+<p>6、 双击系统中已经存在的AccentColor，这就是当前系统的主题颜色，复制其值，再双击新建的AccentColorInactive，将其值改为当前系统主题色。</p>
+<p>7、然后回到个性化设置中，将当前系统主题色选择为一个较深的颜色值即可。建议深、浅两色为同一颜色，这样看上去不会很花哨，让人迷惑</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
       
   
   
